@@ -33,6 +33,7 @@ public class SpringBucksApplication implements ApplicationRunner {
 		SpringApplication.run(SpringBucksApplication.class, args);
 	}
 
+
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		log.info("All Coffee: {}", coffeeRepository.findAll());
